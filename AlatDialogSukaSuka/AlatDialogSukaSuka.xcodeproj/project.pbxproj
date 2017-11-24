@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		395D41541FC8022B00930ED3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395D41531FC8022B00930ED3 /* AppDelegate.swift */; };
+		395D41561FC8022B00930ED3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395D41551FC8022B00930ED3 /* ViewController.swift */; };
+		395D41591FC8022B00930ED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 395D41571FC8022B00930ED3 /* Main.storyboard */; };
+		395D415B1FC8022B00930ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 395D415A1FC8022B00930ED3 /* Assets.xcassets */; };
+		395D415E1FC8022B00930ED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 395D415C1FC8022B00930ED3 /* LaunchScreen.storyboard */; };
+		395D41691FC8022B00930ED3 /* AlatDialogSukaSukaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395D41681FC8022B00930ED3 /* AlatDialogSukaSukaTests.swift */; };
+		395D41741FC8022B00930ED3 /* AlatDialogSukaSukaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395D41731FC8022B00930ED3 /* AlatDialogSukaSukaUITests.swift */; };
+		395D41821FC81D8900930ED3 /* TerserahViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395D41811FC81D8900930ED3 /* TerserahViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		395D41651FC8022B00930ED3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 395D41481FC8022B00930ED3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 395D414F1FC8022B00930ED3;
+			remoteInfo = AlatDialogSukaSuka;
+		};
+		395D41701FC8022B00930ED3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 395D41481FC8022B00930ED3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 395D414F1FC8022B00930ED3;
+			remoteInfo = AlatDialogSukaSuka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		395D41501FC8022B00930ED3 /* AlatDialogSukaSuka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlatDialogSukaSuka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		395D41531FC8022B00930ED3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		395D41551FC8022B00930ED3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		395D41581FC8022B00930ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		395D415A1FC8022B00930ED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		395D415D1FC8022B00930ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		395D415F1FC8022B00930ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		395D41641FC8022B00930ED3 /* AlatDialogSukaSukaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlatDialogSukaSukaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		395D41681FC8022B00930ED3 /* AlatDialogSukaSukaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlatDialogSukaSukaTests.swift; sourceTree = "<group>"; };
+		395D416A1FC8022B00930ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		395D416F1FC8022B00930ED3 /* AlatDialogSukaSukaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlatDialogSukaSukaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		395D41731FC8022B00930ED3 /* AlatDialogSukaSukaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlatDialogSukaSukaUITests.swift; sourceTree = "<group>"; };
+		395D41751FC8022B00930ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		395D41811FC81D8900930ED3 /* TerserahViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerserahViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		395D414D1FC8022B00930ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		395D41611FC8022B00930ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		395D416C1FC8022B00930ED3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		395D41471FC8022B00930ED3 = {
+			isa = PBXGroup;
+			children = (
+				395D41521FC8022B00930ED3 /* AlatDialogSukaSuka */,
+				395D41671FC8022B00930ED3 /* AlatDialogSukaSukaTests */,
+				395D41721FC8022B00930ED3 /* AlatDialogSukaSukaUITests */,
+				395D41511FC8022B00930ED3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		395D41511FC8022B00930ED3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				395D41501FC8022B00930ED3 /* AlatDialogSukaSuka.app */,
+				395D41641FC8022B00930ED3 /* AlatDialogSukaSukaTests.xctest */,
+				395D416F1FC8022B00930ED3 /* AlatDialogSukaSukaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		395D41521FC8022B00930ED3 /* AlatDialogSukaSuka */ = {
+			isa = PBXGroup;
+			children = (
+				395D41531FC8022B00930ED3 /* AppDelegate.swift */,
+				395D41551FC8022B00930ED3 /* ViewController.swift */,
+				395D41571FC8022B00930ED3 /* Main.storyboard */,
+				395D415A1FC8022B00930ED3 /* Assets.xcassets */,
+				395D415C1FC8022B00930ED3 /* LaunchScreen.storyboard */,
+				395D415F1FC8022B00930ED3 /* Info.plist */,
+				395D41811FC81D8900930ED3 /* TerserahViewController.swift */,
+			);
+			path = AlatDialogSukaSuka;
+			sourceTree = "<group>";
+		};
+		395D41671FC8022B00930ED3 /* AlatDialogSukaSukaTests */ = {
+			isa = PBXGroup;
+			children = (
+				395D41681FC8022B00930ED3 /* AlatDialogSukaSukaTests.swift */,
+				395D416A1FC8022B00930ED3 /* Info.plist */,
+			);
+			path = AlatDialogSukaSukaTests;
+			sourceTree = "<group>";
+		};
+		395D41721FC8022B00930ED3 /* AlatDialogSukaSukaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				395D41731FC8022B00930ED3 /* AlatDialogSukaSukaUITests.swift */,
+				395D41751FC8022B00930ED3 /* Info.plist */,
+			);
+			path = AlatDialogSukaSukaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		395D414F1FC8022B00930ED3 /* AlatDialogSukaSuka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 395D41781FC8022B00930ED3 /* Build configuration list for PBXNativeTarget "AlatDialogSukaSuka" */;
+			buildPhases = (
+				395D414C1FC8022B00930ED3 /* Sources */,
+				395D414D1FC8022B00930ED3 /* Frameworks */,
+				395D414E1FC8022B00930ED3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlatDialogSukaSuka;
+			productName = AlatDialogSukaSuka;
+			productReference = 395D41501FC8022B00930ED3 /* AlatDialogSukaSuka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		395D41631FC8022B00930ED3 /* AlatDialogSukaSukaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 395D417B1FC8022B00930ED3 /* Build configuration list for PBXNativeTarget "AlatDialogSukaSukaTests" */;
+			buildPhases = (
+				395D41601FC8022B00930ED3 /* Sources */,
+				395D41611FC8022B00930ED3 /* Frameworks */,
+				395D41621FC8022B00930ED3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				395D41661FC8022B00930ED3 /* PBXTargetDependency */,
+			);
+			name = AlatDialogSukaSukaTests;
+			productName = AlatDialogSukaSukaTests;
+			productReference = 395D41641FC8022B00930ED3 /* AlatDialogSukaSukaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		395D416E1FC8022B00930ED3 /* AlatDialogSukaSukaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 395D417E1FC8022B00930ED3 /* Build configuration list for PBXNativeTarget "AlatDialogSukaSukaUITests" */;
+			buildPhases = (
+				395D416B1FC8022B00930ED3 /* Sources */,
+				395D416C1FC8022B00930ED3 /* Frameworks */,
+				395D416D1FC8022B00930ED3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				395D41711FC8022B00930ED3 /* PBXTargetDependency */,
+			);
+			name = AlatDialogSukaSukaUITests;
+			productName = AlatDialogSukaSukaUITests;
+			productReference = 395D416F1FC8022B00930ED3 /* AlatDialogSukaSukaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		395D41481FC8022B00930ED3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = FatahKhair;
+				TargetAttributes = {
+					395D414F1FC8022B00930ED3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					395D41631FC8022B00930ED3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 395D414F1FC8022B00930ED3;
+					};
+					395D416E1FC8022B00930ED3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 395D414F1FC8022B00930ED3;
+					};
+				};
+			};
+			buildConfigurationList = 395D414B1FC8022B00930ED3 /* Build configuration list for PBXProject "AlatDialogSukaSuka" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 395D41471FC8022B00930ED3;
+			productRefGroup = 395D41511FC8022B00930ED3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				395D414F1FC8022B00930ED3 /* AlatDialogSukaSuka */,
+				395D41631FC8022B00930ED3 /* AlatDialogSukaSukaTests */,
+				395D416E1FC8022B00930ED3 /* AlatDialogSukaSukaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		395D414E1FC8022B00930ED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395D415E1FC8022B00930ED3 /* LaunchScreen.storyboard in Resources */,
+				395D415B1FC8022B00930ED3 /* Assets.xcassets in Resources */,
+				395D41591FC8022B00930ED3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		395D41621FC8022B00930ED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		395D416D1FC8022B00930ED3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		395D414C1FC8022B00930ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395D41561FC8022B00930ED3 /* ViewController.swift in Sources */,
+				395D41821FC81D8900930ED3 /* TerserahViewController.swift in Sources */,
+				395D41541FC8022B00930ED3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		395D41601FC8022B00930ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395D41691FC8022B00930ED3 /* AlatDialogSukaSukaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		395D416B1FC8022B00930ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395D41741FC8022B00930ED3 /* AlatDialogSukaSukaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		395D41661FC8022B00930ED3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 395D414F1FC8022B00930ED3 /* AlatDialogSukaSuka */;
+			targetProxy = 395D41651FC8022B00930ED3 /* PBXContainerItemProxy */;
+		};
+		395D41711FC8022B00930ED3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 395D414F1FC8022B00930ED3 /* AlatDialogSukaSuka */;
+			targetProxy = 395D41701FC8022B00930ED3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		395D41571FC8022B00930ED3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				395D41581FC8022B00930ED3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		395D415C1FC8022B00930ED3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				395D415D1FC8022B00930ED3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		395D41761FC8022B00930ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		395D41771FC8022B00930ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		395D41791FC8022B00930ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlatDialogSukaSuka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatahkhair.AlatDialogSukaSuka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		395D417A1FC8022B00930ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlatDialogSukaSuka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatahkhair.AlatDialogSukaSuka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		395D417C1FC8022B00930ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlatDialogSukaSukaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatahkhair.AlatDialogSukaSukaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlatDialogSukaSuka.app/AlatDialogSukaSuka";
+			};
+			name = Debug;
+		};
+		395D417D1FC8022B00930ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlatDialogSukaSukaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatahkhair.AlatDialogSukaSukaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlatDialogSukaSuka.app/AlatDialogSukaSuka";
+			};
+			name = Release;
+		};
+		395D417F1FC8022B00930ED3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlatDialogSukaSukaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatahkhair.AlatDialogSukaSukaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlatDialogSukaSuka;
+			};
+			name = Debug;
+		};
+		395D41801FC8022B00930ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlatDialogSukaSukaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatahkhair.AlatDialogSukaSukaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlatDialogSukaSuka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		395D414B1FC8022B00930ED3 /* Build configuration list for PBXProject "AlatDialogSukaSuka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				395D41761FC8022B00930ED3 /* Debug */,
+				395D41771FC8022B00930ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		395D41781FC8022B00930ED3 /* Build configuration list for PBXNativeTarget "AlatDialogSukaSuka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				395D41791FC8022B00930ED3 /* Debug */,
+				395D417A1FC8022B00930ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		395D417B1FC8022B00930ED3 /* Build configuration list for PBXNativeTarget "AlatDialogSukaSukaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				395D417C1FC8022B00930ED3 /* Debug */,
+				395D417D1FC8022B00930ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		395D417E1FC8022B00930ED3 /* Build configuration list for PBXNativeTarget "AlatDialogSukaSukaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				395D417F1FC8022B00930ED3 /* Debug */,
+				395D41801FC8022B00930ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 395D41481FC8022B00930ED3 /* Project object */;
+}
